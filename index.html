@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <textarea id="input-text" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="note">⚠️ Solo letras minúsculas y sin acentos</div>
+            <div class="buttons">
+                <button onclick="encryptText()">Encriptar</button>
+                <button onclick="decryptText()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="output-section">
+            <p id="output-text">Ningún mensaje fue encontrado</p>
+            <div class="buttons">
+                <button id="copy-button" onclick="copyText()">Copiar Texto</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Caleb Toro</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
