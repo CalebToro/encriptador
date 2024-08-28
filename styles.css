@@ -1,15 +1,15 @@
 /* paleta de colores */
 :root {
-    --background-color-body: #E3F2FD; /* Azul cielo claro */
-    --background-color-container: #BBDEFB; /* Azul cielo más intenso */
-    --background-color-output: #90CAF9; /* Azul cielo medio */
-    --border-color-textarea: #64B5F6; /* Azul más oscuro */
-    --button-background-color: #1E88E5; /* Azul oscuro */
-    --button-hover-background-color: #1976D2; /* Azul más oscuro */
-    --text-color-textarea: #0D47A1; /* Azul marino */
-    --text-color-note: #0D47A1; /* Azul marino */
-    --text-color-output: #0D47A1; /* Azul marino */
-    --box-shadow-container: 0 0 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    --background-color-body: #E7F8F0;
+    --background-color-container: #B8F0E2;
+    --background-color-output: #9BE0D0;
+    --border-color-textarea: #7AC5B8;
+    --button-background-color: #2E8B6F;
+    --button-hover-background-color: #1F7B5E;
+    --text-color-textarea: #1F4D3C;
+    --text-color-note: #1A2D2A;
+    --text-color-output: #1F4D3C;
+    --box-shadow-container: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 
